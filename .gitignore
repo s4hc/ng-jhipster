@@ -19,7 +19,7 @@ config/testing-utils.js
 coverage
 **/*.metadata.json
 *.metadata.json
-/bundles
+#/bundles
 /aot/
 *.tgz
 yarn-error.log
