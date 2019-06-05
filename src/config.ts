@@ -17,14 +17,14 @@
  limitations under the License.
  */
 import { Injectable } from '@angular/core';
-
+import { faSortUp, faSortDown, faSort, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 @Injectable({
     providedIn: 'root'
 })
 export class JhiModuleConfig {
-    sortIcon ? = 'fa-sort';
-    sortAscIcon ? = 'fa-sort-up';
-    sortDescIcon ? = 'fa-sort-down';
+    sortIcon ?: IconDefinition = faSort;
+    sortAscIcon ?: IconDefinition = faSortUp;
+    sortDescIcon ?: IconDefinition = faSortDown;
     sortIconSelector ? = 'span.fa';
     i18nEnabled ? = false;
     defaultI18nLang ? = 'en';
