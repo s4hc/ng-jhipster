@@ -3,7 +3,7 @@
   "description": "A Jhipster util library for Angular 2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhipster/ng-jhipster.git"
+    "url": "https://github.com/s4hc/ng-jhipster.git"
   },
   "keywords": [
     "jhipster",
