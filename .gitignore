@@ -14,7 +14,7 @@ tests/**/*.js
 config/testing-utils.js
 #*.map
 #*.d.ts
-/src/**/*.d.ts
+#/src/**/*.d.ts
 *.spec.d.ts
 !make.js
 !examples/**/*.js
