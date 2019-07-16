@@ -1,6 +1,7 @@
 #################
 ## Misc
 #################
+tslint.json
 nbproject
 manifest.mf
 build.xml
